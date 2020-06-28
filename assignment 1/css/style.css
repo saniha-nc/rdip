@@ -1,0 +1,89 @@
+* {
+   padding-right: 8px;
+   padding-left: 8px;
+
+}
+.toplink {
+	float: right;
+	padding-top: 0px;
+
+}
+.logo img {
+	padding-top: 9px;
+	width: 8%;
+	height: 8%;
+}
+.photo img {
+	float: right;
+	height: 10%;
+	width: 10%;
+	}
+.home {
+	background-color: #363636;
+}
+.home ul {
+     
+       list-style: none;
+       padding-top: 10px;
+       height: 10px;
+       padding-bottom: 15px;
+}
+.home li {
+	display: inline;
+	color: white;
+}
+.home a:hover {
+	background-color: #626567;
+	color: black;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	padding-left: 4px;
+}
+.home a:visited{
+	color: white;
+}
+.home a:link{
+	text-decoration: none;
+	color: white;
+	font-family: 
+}
+table, th,td{
+	border-collapse: collapse;
+	border: 3px solid black;
+	padding: 15px;
+	table-layout: auto;
+	width: 40%;
+}
+.row1 {
+	padding : 50px;
+	
+}
+.row2 {
+	padding : 50px;
+	
+}
+.row3 {
+	padding : 50px;
+	
+}
+.form label{
+	width: 180px;
+	display: inline-block;
+}
+.form #dec {
+	width: 180px;
+	display: inline-block;
+}
+.form #declable{
+	width: 500px;
+	display: inline;
+}
+.form #sub{
+	border-radius: 8px;
+	color: black;
+}
+.form #res{
+	border-radius: 8px;
+	color: black;
+	margin-left: 200px;
+}
