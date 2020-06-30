@@ -11,34 +11,34 @@
 	<div class="home"><ul>
 		<li><a href="homepage.html">Home</a></li>
 		<li><a href="registration.html">Registration Form</a></li>
-		 <form class="form" action="details.html"><br><br>
+		 <form class="form"  onsubmit="return !!(check(this.form)&display());"><br><br>
              <label for="name"> First Name : </label>
-             <input type="text" id="name" name="name"><br><br>
+             <input type="text" id="name" name="name" pattern="[a-zA-z]+" title="Invalid name"><br><br>
              <label for="mail"> E-mail : </label>
              <input type="mail" id="mail" name="mail"><br><br>
              <label for="number"> Phone No: </label>
-             <input type="number" id="number" name="phone"><br><br>
+             <input type="text" id="number" name="phone" pattern="[^a-zA-z]{10}"><br><br>
              <label for="gender"> Gender :</label>
              <input type="radio" id="male" name="gender" value="male">
              <label for="male"> Male </label>
-             <input type="radio" id="Female" name="gender" value="female">
+             <input type="radio" id="female" name="gender" value="female">
              <label for="female"> Female </label>
-             <input type="radio" id="others" name="gender" value="others">
+             <input type="radio" id="other" name="gender" value="others">
              <label for="others"> Others </label><br><br>
              <label for="reason"> Reason for RDIP :</label>
-             <input type="checkbox" id="HTML" name="HTML" value="HTML">
-             <label for="HTML"> HTML </label>
-             <input type="checkbox" id="CSS" name="CSS" value="CSS">
-             <label for="female"> CSS </label>
+             <input type="checkbox" id="html" name="html" value="html">
+             <label for="html"> HTML </label>
+             <input type="checkbox" id="css" name="css" value="css">
+             <label for="css"> CSS </label>
              <input type="checkbox" id="java" name="java" value="java">
              <label for="java"> JavaScript</label><br><br>
              <label for="college"> College : </label>
              <input type="text" id="college" name="college"><br><br>
-             <section id="dec"><input type="checkbox" id="declare" name="declare"></section>
+             <section id="dec"><input type="checkbox" id="declare" name="declare" required></section>
              <section id="declable"><label for="declare">I declare above details given by me are true. </label></section><br><br>
-             <input id="sub" type="submit" value="Submit">
+             <input id="sub" type="submit"  value="Submit">
              <input id="res" type="reset" value="Reset">
        </form>
-           
+      <script src="./script/main.js"></script>     
 </body>
 </html>
