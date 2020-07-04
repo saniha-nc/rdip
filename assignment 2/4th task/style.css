@@ -1,0 +1,30 @@
+h2{
+	text-align: center;
+	color: darkred;
+	font-size: 40px;
+}
+#start{
+	text-align: center;
+	background-color: lightcoral;
+	margin-left: 430px;
+	margin-top: 100px;
+	width: 35%;
+	height: 40px;
+	font-size: 20px;
+}
+#Object1, #Object2{
+	text-align: center;
+	color: slateblue;
+	font-size: 35px;
+}
+#surv{
+	color: blue;
+	text-align: center;
+	font-size: 35px;
+}
+#text1, #text2{
+	text-align: center;
+	margin-left: 530px;
+	background-color: peachpuff;
+
+}

@@ -1,0 +1,25 @@
+*{
+	margin-left: 20px;
+}
+h2{
+	text-align: center;
+	color: teal;
+	font-size: 40px;
+}
+#word1, #word2, #word3{
+	text-align: center;
+	font-size: 30px;
+}
+#check{
+	width: 70px;
+	height: 30px;
+	background-color: pink;
+}
+#cal1, #cal2{
+	color: mediumblue;
+	font-size: 25px;
+
+}
+#letter{
+	font-size: 30px;
+}

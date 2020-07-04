@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Second Task</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="../script/main.js"></script>
+</head>
+<body>
+	<h2> Validation task </h2>
+	<form class="info"><label>Enter your name : </label>
+	<input type="text" id="name" ><br>
+	<label>Enter Phone number : </label>
+	<input type="text" id="phn" name="number"><br>
+	<label>Enter your E-mail ID : </label>
+	<input type="text" id="email" name="email"><br><br>
+	<button type="submit" id="sub" onclick="return !!(valiletter() & valinum() & valimail())">Submit</button>
+</form>
+</body>
+</html>

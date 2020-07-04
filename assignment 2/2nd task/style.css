@@ -1,0 +1,23 @@
+* {
+	margin : 10px;
+}
+h2{
+	color: red;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 35px;
+}
+.info{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 25px;
+}
+#name, #phn, #email{
+	display: inline-block;
+}
+#name{
+	margin-left: 50px;
+}
+#phn{
+	margin-left: 15px;
+}

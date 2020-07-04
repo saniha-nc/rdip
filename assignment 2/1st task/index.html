@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 1</title>
+	<script src="../script/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h2>Simple Calculator</h2><br><br>
+        <label>Enter first number : </label><br>
+        <input type="number" id="num1"><br><br>
+        <label>Enter second number : </label><br>
+        <input type="number" id="num2"><br><br>
+        <input id="add" type="button" name="add" value="+" onclick="document.getElementById('result').value = addition();">
+        <label>Addition</label><br><br>
+        <input id="sub" type="button" name="sub" value="-" onclick="document.getElementById('result').value = subtraction();">
+        <label>Subtraction</label><br><br>
+        <input id='mul' type="button" name="mul" value="*" onclick="document.getElementById('result').value = multiplication();">
+        <label>Multiplication</label><br><br>
+        <input id='div' type="button" name="div" value="/" onclick="document.getElementById('result').value = division();">
+        <label>Division</label><br><br>
+        <input id="per" type="button" name="per" value="%" onclick="document.getElementById('result').value = percentage();">
+        <label>Percentage</label><br><br>
+        <input id="abs" type="button" name="abs" value="|" onclick="document.getElementById('result').value = absolute();">
+        <label>Absolute</label><br><br>
+        <input id="sqr" type="button" name="sqrt" value="sqrt" onclick="document.getElementById('result').value = sqroot();">
+        <label>Square root</label><br><br>
+        <label>Result is : </label><br>
+        <input type="text" id="result">
+</body>
+</html>
